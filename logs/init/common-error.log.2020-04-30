@@ -1,0 +1,370 @@
+2020-04-11 17:30:25,689 ERROR 7195 [-/127.0.0.1/-/8ms GET /activity] nodejs.ReferenceError: /Users/dezhizhang/Documents/project/link/app/view/default/index.html:19
+    17|             </a>
+    18|             </li>
+ >> 19|             <%for(let i=0;i < focus.length;i++){%>
+    20|                 <li><a href="" style="background: url('<%=focus[i].img%>') no-repeat center; background-size: cover;"></a></li>
+    21|             <%}%>
+    22|         </ul>
+
+focus is not defined
+    17|             </a>
+    18|             </li>
+ >> 19|             <%for(let i=0;i < focus.length;i++){%>
+    20|                 <li><a href="" style="background: url('<%=focus[i].img%>') no-repeat center; background-size: cover;"></a></li>
+    21|             <%}%>
+    22|         </ul>
+
+focus is not defined
+    at eval (/Users/dezhizhang/Documents/project/link/app/view/default/index.html:21:23)
+    at index (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:485:10)
+    at /Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+    at async ActivityController.index (/Users/dezhizhang/Documents/project/link/app/controller/default/activity.js:7:6)
+    at async /Users/dezhizhang/Documents/project/link/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dezhizhang/Documents/project/link/node_modules/_koa-session@5.13.1@koa-session/index.js:41:7)
+path: "/Users/dezhizhang/Documents/project/link/app/view/default/index.html"
+pid: 7195
+hostname: dezhizhangdeMacBook-Pro.local
+
+2020-04-11 17:30:38,287 ERROR 7195 [-/127.0.0.1/-/5ms GET /activity] nodejs.ReferenceError: /Users/dezhizhang/Documents/project/link/app/view/default/index.html:19
+    17|             </a>
+    18|             </li>
+ >> 19|             <%for(let i=0;i < focus.length;i++){%>
+    20|                 <li><a href="" style="background: url('<%=focus[i].img%>') no-repeat center; background-size: cover;"></a></li>
+    21|             <%}%>
+    22|         </ul>
+
+focus is not defined
+    17|             </a>
+    18|             </li>
+ >> 19|             <%for(let i=0;i < focus.length;i++){%>
+    20|                 <li><a href="" style="background: url('<%=focus[i].img%>') no-repeat center; background-size: cover;"></a></li>
+    21|             <%}%>
+    22|         </ul>
+
+focus is not defined
+    at eval (/Users/dezhizhang/Documents/project/link/app/view/default/index.html:21:23)
+    at index (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:485:10)
+    at /Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+    at async ActivityController.index (/Users/dezhizhang/Documents/project/link/app/controller/default/activity.js:7:6)
+    at async /Users/dezhizhang/Documents/project/link/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dezhizhang/Documents/project/link/node_modules/_koa-session@5.13.1@koa-session/index.js:41:7)
+path: "/Users/dezhizhang/Documents/project/link/app/view/default/index.html"
+pid: 7195
+hostname: dezhizhangdeMacBook-Pro.local
+
+2020-04-11 17:46:22,465 ERROR 8063 [-/127.0.0.1/-/16ms GET /admin/detail?id=5e9082b3a5111d0f8279e6e3] nodejs.ReferenceError: /Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html:39
+    37| 									<div class="card-header">
+    38| 										<div class="card-title">
+ >> 39|                                             <a href="/admin/detail/add?article_id=<%=article_id%>" class="btn btn-info">增加详情</a>
+    40| 											
+    41| 										</div>
+    42| 									</div>
+
+article_id is not defined
+    37| 									<div class="card-header">
+    38| 										<div class="card-title">
+ >> 39|                                             <a href="/admin/detail/add?article_id=<%=article_id%>" class="btn btn-info">增加详情</a>
+    40| 											
+    41| 										</div>
+    42| 									</div>
+
+article_id is not defined
+    at eval (/Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html:46:25)
+    at index (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:485:10)
+    at /Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+    at async DetailController.index (/Users/dezhizhang/Documents/project/link/app/controller/admin/detail.js:8:5)
+    at async auth (/Users/dezhizhang/Documents/project/link/app/middleware/auth.js:13:13)
+    at async /Users/dezhizhang/Documents/project/link/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+path: "/Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html"
+pid: 8063
+hostname: dezhizhangdeMacBook-Pro.local
+
+2020-04-11 17:47:41,317 ERROR 8063 [-/127.0.0.1/-/7ms GET /admin/detail?id=5e9082b3a5111d0f8279e6e3] nodejs.ReferenceError: /Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html:39
+    37| 									<div class="card-header">
+    38| 										<div class="card-title">
+ >> 39|                                             <a href="/admin/detail/add?detail_id=<%=article_id%>" class="btn btn-info">增加详情</a>
+    40| 											
+    41| 										</div>
+    42| 									</div>
+
+article_id is not defined
+    37| 									<div class="card-header">
+    38| 										<div class="card-title">
+ >> 39|                                             <a href="/admin/detail/add?detail_id=<%=article_id%>" class="btn btn-info">增加详情</a>
+    40| 											
+    41| 										</div>
+    42| 									</div>
+
+article_id is not defined
+    at eval (/Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html:46:25)
+    at index (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:485:10)
+    at /Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+    at async DetailController.index (/Users/dezhizhang/Documents/project/link/app/controller/admin/detail.js:8:5)
+    at async auth (/Users/dezhizhang/Documents/project/link/app/middleware/auth.js:13:13)
+    at async /Users/dezhizhang/Documents/project/link/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+path: "/Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html"
+pid: 8063
+hostname: dezhizhangdeMacBook-Pro.local
+
+2020-04-11 17:47:42,057 ERROR 8063 [-/127.0.0.1/-/5ms GET /admin/detail?id=5e9082b3a5111d0f8279e6e3] nodejs.ReferenceError: /Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html:39
+    37| 									<div class="card-header">
+    38| 										<div class="card-title">
+ >> 39|                                             <a href="/admin/detail/add?detail_id=<%=article_id%>" class="btn btn-info">增加详情</a>
+    40| 											
+    41| 										</div>
+    42| 									</div>
+
+article_id is not defined
+    37| 									<div class="card-header">
+    38| 										<div class="card-title">
+ >> 39|                                             <a href="/admin/detail/add?detail_id=<%=article_id%>" class="btn btn-info">增加详情</a>
+    40| 											
+    41| 										</div>
+    42| 									</div>
+
+article_id is not defined
+    at eval (/Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html:46:25)
+    at index (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:485:10)
+    at /Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+    at async DetailController.index (/Users/dezhizhang/Documents/project/link/app/controller/admin/detail.js:8:5)
+    at async auth (/Users/dezhizhang/Documents/project/link/app/middleware/auth.js:13:13)
+    at async /Users/dezhizhang/Documents/project/link/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+path: "/Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html"
+pid: 8063
+hostname: dezhizhangdeMacBook-Pro.local
+
+2020-04-11 17:47:42,245 ERROR 8063 [-/127.0.0.1/-/3ms GET /admin/detail?id=5e9082b3a5111d0f8279e6e3] nodejs.ReferenceError: /Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html:39
+    37| 									<div class="card-header">
+    38| 										<div class="card-title">
+ >> 39|                                             <a href="/admin/detail/add?detail_id=<%=article_id%>" class="btn btn-info">增加详情</a>
+    40| 											
+    41| 										</div>
+    42| 									</div>
+
+article_id is not defined
+    37| 									<div class="card-header">
+    38| 										<div class="card-title">
+ >> 39|                                             <a href="/admin/detail/add?detail_id=<%=article_id%>" class="btn btn-info">增加详情</a>
+    40| 											
+    41| 										</div>
+    42| 									</div>
+
+article_id is not defined
+    at eval (/Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html:46:25)
+    at index (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:485:10)
+    at /Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+    at async DetailController.index (/Users/dezhizhang/Documents/project/link/app/controller/admin/detail.js:8:5)
+    at async auth (/Users/dezhizhang/Documents/project/link/app/middleware/auth.js:13:13)
+    at async /Users/dezhizhang/Documents/project/link/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+path: "/Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html"
+pid: 8063
+hostname: dezhizhangdeMacBook-Pro.local
+
+2020-04-11 17:47:42,427 ERROR 8063 [-/127.0.0.1/-/5ms GET /admin/detail?id=5e9082b3a5111d0f8279e6e3] nodejs.ReferenceError: /Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html:39
+    37| 									<div class="card-header">
+    38| 										<div class="card-title">
+ >> 39|                                             <a href="/admin/detail/add?detail_id=<%=article_id%>" class="btn btn-info">增加详情</a>
+    40| 											
+    41| 										</div>
+    42| 									</div>
+
+article_id is not defined
+    37| 									<div class="card-header">
+    38| 										<div class="card-title">
+ >> 39|                                             <a href="/admin/detail/add?detail_id=<%=article_id%>" class="btn btn-info">增加详情</a>
+    40| 											
+    41| 										</div>
+    42| 									</div>
+
+article_id is not defined
+    at eval (/Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html:46:25)
+    at index (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:485:10)
+    at /Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+    at async DetailController.index (/Users/dezhizhang/Documents/project/link/app/controller/admin/detail.js:8:5)
+    at async auth (/Users/dezhizhang/Documents/project/link/app/middleware/auth.js:13:13)
+    at async /Users/dezhizhang/Documents/project/link/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+path: "/Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html"
+pid: 8063
+hostname: dezhizhangdeMacBook-Pro.local
+
+2020-04-11 17:47:48,371 ERROR 8063 [-/127.0.0.1/-/4ms GET /admin/detail?id=5e9082b3a5111d0f8279e6e3] nodejs.ReferenceError: /Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html:39
+    37| 									<div class="card-header">
+    38| 										<div class="card-title">
+ >> 39|                                             <a href="/admin/detail/add?detail_id=<%=article_id%>" class="btn btn-info">增加详情</a>
+    40| 											
+    41| 										</div>
+    42| 									</div>
+
+article_id is not defined
+    37| 									<div class="card-header">
+    38| 										<div class="card-title">
+ >> 39|                                             <a href="/admin/detail/add?detail_id=<%=article_id%>" class="btn btn-info">增加详情</a>
+    40| 											
+    41| 										</div>
+    42| 									</div>
+
+article_id is not defined
+    at eval (/Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html:46:25)
+    at index (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:485:10)
+    at /Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+    at async DetailController.index (/Users/dezhizhang/Documents/project/link/app/controller/admin/detail.js:8:5)
+    at async auth (/Users/dezhizhang/Documents/project/link/app/middleware/auth.js:13:13)
+    at async /Users/dezhizhang/Documents/project/link/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+path: "/Users/dezhizhang/Documents/project/link/app/view/admin/detail/index.html"
+pid: 8063
+hostname: dezhizhangdeMacBook-Pro.local
+
+2020-04-11 17:52:12,370 ERROR 8288 [-/127.0.0.1/-/19ms GET /admin/detail/add?detail_id=5e9082b3a5111d0f8279e6e3] nodejs.ReferenceError: /Users/dezhizhang/Documents/project/link/app/view/admin/detail/add.html:44
+    42| 				<div class="card-body">
+    43|                     <form method="POST" action="/admin/detail/doAdd">
+ >> 44|                         <input type="hidden" name="article_id" value="<%=article_id%>"/>
+    45| 						<textarea id="summernote" name="content"></textarea>
+    46| 					
+    47| 						<button type="submit" class="btn btn-primary">
+
+article_id is not defined
+    42| 				<div class="card-body">
+    43|                     <form method="POST" action="/admin/detail/doAdd">
+ >> 44|                         <input type="hidden" name="article_id" value="<%=article_id%>"/>
+    45| 						<textarea id="summernote" name="content"></textarea>
+    46| 					
+    47| 						<button type="submit" class="btn btn-primary">
+
+article_id is not defined
+    at eval (/Users/dezhizhang/Documents/project/link/app/view/admin/detail/add.html:46:25)
+    at add (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:485:10)
+    at /Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+    at async DetailController.add (/Users/dezhizhang/Documents/project/link/app/controller/admin/detail.js:16:9)
+    at async auth (/Users/dezhizhang/Documents/project/link/app/middleware/auth.js:13:13)
+    at async /Users/dezhizhang/Documents/project/link/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+path: "/Users/dezhizhang/Documents/project/link/app/view/admin/detail/add.html"
+pid: 8288
+hostname: dezhizhangdeMacBook-Pro.local
+
+2020-04-30 23:32:08,207 ERROR 3535 [-/127.0.0.1/-/8ms GET /activity] nodejs.ReferenceError: /Users/dezhizhang/Documents/project/link/app/view/default/index.html:19
+    17|             </a>
+    18|             </li>
+ >> 19|             <%for(let i=0;i < focus.length;i++){%>
+    20|                 <li><a href="" style="background: url('<%=focus[i].img%>') no-repeat center; background-size: cover;"></a></li>
+    21|             <%}%>
+    22|         </ul>
+
+focus is not defined
+    17|             </a>
+    18|             </li>
+ >> 19|             <%for(let i=0;i < focus.length;i++){%>
+    20|                 <li><a href="" style="background: url('<%=focus[i].img%>') no-repeat center; background-size: cover;"></a></li>
+    21|             <%}%>
+    22|         </ul>
+
+focus is not defined
+    at eval (/Users/dezhizhang/Documents/project/link/app/view/default/index.html:21:23)
+    at index (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/dezhizhang/Documents/project/link/node_modules/_ejs@2.7.4@ejs/lib/ejs.js:485:10)
+    at /Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/dezhizhang/Documents/project/link/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+    at async ActivityController.index (/Users/dezhizhang/Documents/project/link/app/controller/default/activity.js:7:6)
+    at async /Users/dezhizhang/Documents/project/link/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dezhizhang/Documents/project/link/node_modules/_egg-security@2.7.1@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dezhizhang/Documents/project/link/node_modules/_koa-session@5.13.1@koa-session/index.js:41:7)
+path: "/Users/dezhizhang/Documents/project/link/app/view/default/index.html"
+pid: 3535
+hostname: dezhizhangdeMBP
+

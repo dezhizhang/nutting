@@ -1,0 +1,330 @@
+{
+  "keys": "/Users/dezhizhang/Documents/project/nutting/config/config.default.js",
+  "uploadDir": "/Users/dezhizhang/Documents/project/nutting/config/config.default.js",
+  "middleware": "/Users/dezhizhang/Documents/project/nutting/config/config.default.js",
+  "auth": {
+    "match": "/Users/dezhizhang/Documents/project/nutting/config/config.default.js"
+  },
+  "view": {
+    "mapping": {
+      ".html": "/Users/dezhizhang/Documents/project/nutting/config/config.default.js"
+    },
+    "root": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+  },
+  "cluster": {
+    "listen": {
+      "path": "/Users/dezhizhang/Documents/project/nutting/config/config.default.js",
+      "port": "/Users/dezhizhang/Documents/project/nutting/config/config.default.js",
+      "hostname": "/Users/dezhizhang/Documents/project/nutting/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/dezhizhang/Documents/project/nutting/config/config.default.js",
+      "type": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "useSession": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "cookieName": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "sessionName": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "headerName": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "bodyName": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "queryName": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.local.js",
+      "maxAge": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "policy": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "checkAddress": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    }
+  },
+  "mongoose": {
+    "client": {
+      "url": "/Users/dezhizhang/Documents/project/nutting/config/config.default.js",
+      "options": "/Users/dezhizhang/Documents/project/nutting/config/config.default.js"
+    },
+    "url": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js",
+    "options": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js",
+    "plugins": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js",
+    "loadModel": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js",
+    "app": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js",
+    "agent": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-mongoose@3.2.0@egg-mongoose/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "dirs": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "queryField": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.default.js",
+      "development": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js",
+      "file": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "fields": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "files": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-multipart@2.10.2@egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "fastReady": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+  },
+  "ejs": {
+    "root": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/config/config.default.js",
+    "cache": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/config/config.local.js",
+    "debug": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/config/config.default.js",
+    "delimiter": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/config/config.default.js",
+    "strict": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg-view-ejs@2.0.1@egg-view-ejs/config/config.default.js"
+  },
+  "env": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "name": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "cookies": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "proxy": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "maxIpsCount": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "maxProxyCount": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "version": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "description": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "private": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "dependencies": {
+      "await-stream-ready": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-mongoose": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-scripts": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-view": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-view-ejs": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "jimp": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "md5": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "mz-modules": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "qiniu": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "silly-datetime": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "stream-wormhole": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "svg-captcha": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "autod-egg": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-bin": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-ci": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-mock": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "eslint": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "eslint-config-egg": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "stop": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "dev": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "debug": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "test": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "test-local": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "cov": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "lint": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "ci": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "autod": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "url": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "author": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "license": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "baseDir": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "HOME": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "rundir": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "notFound": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "sitefile": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "middlewares": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "httpClient": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "encoding": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "formLimit": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "jsonLimit": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "textLimit": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "strict": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "depth": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "onerror": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "encoding": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "env": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "level": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "consoleLevel": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "outputJSON": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "buffer": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "appLogName": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "coreLogName": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "agentLogName": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "errorLogName": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxSockets": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxSockets": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "logging": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "serverTimeout": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "responseTimeout": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/dezhizhang/Documents/project/nutting/node_modules/_egg@2.26.0@egg/config/config.default.js"
+}

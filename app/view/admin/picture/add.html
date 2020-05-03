@@ -1,0 +1,176 @@
+<%include ../public/header.html%>
+<%include ../public/sidebar.html%>
+<!--main contents start-->
+<main class="content_wrapper">
+<!--page title start-->
+<div class="page-heading">
+	<div class="container-fluid">
+		<div class="row d-flex align-items-center">
+			<div class="col-md-6">
+				<div class="page-breadcrumb">
+					<h1>图片管理</h1>
+				</div>
+			</div>
+			<div class="col-md-6 justify-content-md-end d-md-flex">
+				<div class="breadcrumb_nav">
+					<ol class="breadcrumb">
+						<li>
+							<i class="fa fa-home"></i>
+							<a class="parent-item" href="/admin/manager">图片管理</a>
+							<i class="fa fa-angle-right"></i>
+						</li>
+						<li class="active">
+							增加图片
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>				
+<!--page title end-->
+<div class="container-fluid">
+<!-- state start-->
+	<div class="row">
+		<div class=" col-xl-12">
+			<div class="card card-shadow mb-4">
+				<div class="card-header">
+					<div class="card-title">
+						增加图片
+					</div>
+				</div>
+				<div class="card-body">
+					<form method="POST" action="/admin/picture/doAdd"  enctype="multipart/form-data" >
+						<div class="form-group">
+							<label for="exampleInputEmail1">名称</label>
+							<input name="name" type="text" class="form-control"  placeholder="请输入用户名">
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlFile1">图片</label>
+							<input name="img" type="file" class="form-control-file" >
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlFile1">分类</label>
+							<select name="classify_id" class="form-control" id="classify">
+								<option value="1">唯美类</option>
+								<option value="2">背景类</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlSelect1">类型</label>
+							<select name="picture_id" class="form-control" id="select">
+							
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlFile1">地址</label>
+							<input name="url" type="text" class="form-control" >
+						</div>
+						
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1">描述</label>
+							<textarea name="description" class="form-control"  rows="3"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">
+							确 定
+						</button>
+					
+					</form>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+	<!-- state end-->
+</div>
+
+</main>
+<!--main contents end-->
+</div>
+<!-- Content_right_End -->
+<!-- Footer -->
+<%include ../public/footer.html%>
+<!-- Footer_End -->
+</div>
+		
+</body>
+<script type="text/javascript" src="/public/admin/js/jquery.min.js"></script>
+<script type="text/javascript" src="/public/admin/js/popper.min.js"></script>
+<script type="text/javascript" src="/public/admin/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/public/admin/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="/public/admin/js/jquery.dcjqaccordion.2.7.js"></script>
+<script type="text/javascript" src="/public/admin/js/custom.js" ></script>
+<script type="text/javascript">
+let classify = document.getElementById('classify');
+let select = document.getElementById('select');
+let option = select.getElementsByTagName('option');
+let beautyArr = [
+	{value:"1",name:"美女"},
+	{value:"2",name:"小清淅"},
+	{value:"3",name:"意境"},
+	{value:"4",name:"搞笑"},
+	{value:"5",name:"好看"},
+	{value:"6",name:"明星"},
+	{value:"7",name:"唯美写真"},
+	{value:"8",name:"唯美可爱"}
+];
+let length = beautyArr.length;
+for(let i=0;i < length;i++) {
+	let option = document.createElement('option');
+	option.setAttribute('value',beautyArr[i].value);
+	option.setAttribute('id','option');
+	option.innerHTML = beautyArr[i].name;
+	select.appendChild(option)
+}	
+
+classify.onchange = function() {
+	let classify_id = classify.value;
+	if(classify_id == 1) {
+		for(let j=option.length - 1; j>=0;j--) {
+			select.removeChild(option[j])
+		}
+		let beautyArr = [
+			{value:"1",name:"美女"},
+			{value:"2",name:"小清淅"},
+			{value:"3",name:"意境"},
+			{value:"4",name:"搞笑"},
+			{value:"5",name:"好看"},
+			{value:"6",name:"明星"},
+			{value:"7",name:"唯美写真"},
+			{value:"8",name:"唯美可爱"}
+		];
+		let length = beautyArr.length;
+		for(let i=0;i < length;i++) {
+			let option = document.createElement('option');
+			option.setAttribute('value',beautyArr[i].value);
+			option.setAttribute('id','option');
+			option.innerHTML = beautyArr[i].name;
+			select.appendChild(option)
+		}	
+
+	} else if(classify_id == 2) {
+		for(let j=option.length - 1; j>=0;j--) {
+			select.removeChild(option[j])
+		}
+		let backArr = [
+			{value:"10",name:"商务/科技"},
+			{value:"11",name:"文艺/清新"},
+			{value:"12",name:"卡通/手绘"},
+			{value:"13",name:"质感/纹理"},
+			{value:"14",name:"摄影/风景"},
+			{value:"15",name:"电商/狂欢"},
+			{value:"16",name:"复古/中国风"},
+			{value:"17",name:"另类/其他"}
+		];
+		let length = backArr.length;
+		for(let i=0;i < length;i++) {
+			let option = document.createElement('option');
+			option.setAttribute('value',backArr[i].value);
+			option.setAttribute('id','option');
+			option.innerHTML = backArr[i].name;
+			select.appendChild(option)
+		}	
+	}
+}
+</script>
+</html>
