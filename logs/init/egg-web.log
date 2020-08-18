@@ -954,3 +954,29 @@ hostname: dezhizhangdeMBP
 2020-05-03 12:29:11,382 INFO 8539 [egg-mongoose] instance[0] start successfully
 2020-05-03 12:29:11,384 INFO 8539 [egg-watcher:application] watcher start success
 2020-05-03 12:29:11,389 INFO 8539 [egg:core] dump config after ready, 4ms
+2020-08-18 23:21:36,003 INFO 13780 [egg:logger] init all loggers with options: {"dir":"/Users/dezhizhang/Documents/project/nutting/logs/init","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"init-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-18 23:21:36,022 INFO 13780 [egg-multipart] stream mode enable
+2020-08-18 23:21:36,681 INFO 13780 [egg-static] starting static serve /public/ -> /Users/dezhizhang/Documents/project/nutting/app/public
+2020-08-18 23:21:36,683 INFO 13780 [egg-security] use methodnoallow middleware
+2020-08-18 23:21:36,683 INFO 13780 [egg-security] use noopen middleware
+2020-08-18 23:21:36,684 INFO 13780 [egg-security] use nosniff middleware
+2020-08-18 23:21:36,684 INFO 13780 [egg-security] use xssProtection middleware
+2020-08-18 23:21:36,685 INFO 13780 [egg-security] use xframe middleware
+2020-08-18 23:21:36,685 INFO 13780 [egg-security] use dta middleware
+2020-08-18 23:21:36,685 INFO 13780 [egg-security] compose 6 middlewares into one security middleware
+2020-08-18 23:21:36,709 INFO 13780 [egg:core] dump config after load, 4ms
+2020-08-18 23:21:36,733 INFO 13780 [egg-watcher:application] watcher start success
+2020-08-18 23:21:36,738 INFO 13780 [egg:core] dump config after ready, 4ms
+2020-08-18 23:23:07,607 INFO 13969 [egg:logger] init all loggers with options: {"dir":"/Users/dezhizhang/Documents/project/nutting/logs/init","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"init-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-18 23:23:07,627 INFO 13969 [egg-multipart] stream mode enable
+2020-08-18 23:23:08,225 INFO 13969 [egg-static] starting static serve /public/ -> /Users/dezhizhang/Documents/project/nutting/app/public
+2020-08-18 23:23:08,227 INFO 13969 [egg-security] use methodnoallow middleware
+2020-08-18 23:23:08,228 INFO 13969 [egg-security] use noopen middleware
+2020-08-18 23:23:08,228 INFO 13969 [egg-security] use nosniff middleware
+2020-08-18 23:23:08,229 INFO 13969 [egg-security] use xssProtection middleware
+2020-08-18 23:23:08,229 INFO 13969 [egg-security] use xframe middleware
+2020-08-18 23:23:08,229 INFO 13969 [egg-security] use dta middleware
+2020-08-18 23:23:08,229 INFO 13969 [egg-security] compose 6 middlewares into one security middleware
+2020-08-18 23:23:08,255 INFO 13969 [egg:core] dump config after load, 4ms
+2020-08-18 23:23:08,281 INFO 13969 [egg-watcher:application] watcher start success
+2020-08-18 23:23:08,287 INFO 13969 [egg:core] dump config after ready, 4ms

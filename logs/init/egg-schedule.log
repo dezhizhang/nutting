@@ -163,3 +163,15 @@
 2020-05-03 12:29:10,948 INFO 8539 [egg-schedule]: register schedule /Users/dezhizhang/Documents/project/nutting/node_modules/_egg-multipart@2.10.2@egg-multipart/app/schedule/clean_tmpdir.js
 2020-05-03 12:29:10,948 INFO 8539 [egg-schedule]: register schedule /Users/dezhizhang/Documents/project/nutting/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
 2020-05-03 12:29:10,948 INFO 8539 [egg-schedule]: register schedule /Users/dezhizhang/Documents/project/nutting/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-18 23:21:36,021 INFO 13780 [egg-schedule]: register schedule /Users/dezhizhang/Documents/project/nutting/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-18 23:21:36,021 INFO 13780 [egg-schedule]: register schedule /Users/dezhizhang/Documents/project/nutting/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-18 23:21:36,021 INFO 13780 [egg-schedule]: register schedule /Users/dezhizhang/Documents/project/nutting/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-18 23:21:36,744 INFO 13778 [Timer] /Users/dezhizhang/Documents/project/nutting/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18503258ms at 2020-08-19 04:30:00.002
+2020-08-18 23:21:36,744 INFO 13778 [Timer] /Users/dezhizhang/Documents/project/nutting/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 2303256ms at 2020-08-19 00:00:00.000
+2020-08-18 23:21:36,745 INFO 13778 [Timer] /Users/dezhizhang/Documents/project/nutting/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 2304256ms at 2020-08-19 00:00:01.001
+2020-08-18 23:23:07,626 INFO 13969 [egg-schedule]: register schedule /Users/dezhizhang/Documents/project/nutting/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-18 23:23:07,626 INFO 13969 [egg-schedule]: register schedule /Users/dezhizhang/Documents/project/nutting/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-18 23:23:07,626 INFO 13969 [egg-schedule]: register schedule /Users/dezhizhang/Documents/project/nutting/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-18 23:23:08,294 INFO 13968 [Timer] /Users/dezhizhang/Documents/project/nutting/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18411709ms at 2020-08-19 04:30:00.003
+2020-08-18 23:23:08,294 INFO 13968 [Timer] /Users/dezhizhang/Documents/project/nutting/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 2211706ms at 2020-08-19 00:00:00.000
+2020-08-18 23:23:08,294 INFO 13968 [Timer] /Users/dezhizhang/Documents/project/nutting/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 2212706ms at 2020-08-19 00:00:01.000

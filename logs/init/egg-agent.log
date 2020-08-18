@@ -477,3 +477,23 @@ hostname: dezhizhangdeMBP
 2020-05-03 12:29:10,163 WARN 8156 [agent:development] reload worker because /Users/dezhizhang/Documents/project/nutting/config/config.default.js change
 2020-05-03 12:29:09,911 INFO 8156 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dezhizhang/Documents/project/nutting/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4004650,"size":1075,"blocks":8,"atimeMs":1588480148847.4607,"mtimeMs":1588480149900.174,"ctimeMs":1588480149900.174,"birthtimeMs":1585388749428.2952,"atime":"2020-05-03T04:29:08.847Z","mtime":"2020-05-03T04:29:09.900Z","ctime":"2020-05-03T04:29:09.900Z","birthtime":"2020-03-28T09:45:49.428Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-05-03 12:29:09,961 INFO 8156 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/dezhizhang/Documents/project/nutting/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4004650,"size":1075,"blocks":8,"atimeMs":1588480148847.4607,"mtimeMs":1588480149900.174,"ctimeMs":1588480149900.174,"birthtimeMs":1585388749428.2952,"atime":"2020-05-03T04:29:08.847Z","mtime":"2020-05-03T04:29:09.900Z","ctime":"2020-05-03T04:29:09.900Z","birthtime":"2020-03-28T09:45:49.428Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-18 23:21:35,372 INFO 13778 [egg:logger] init all loggers with options: {"dir":"/Users/dezhizhang/Documents/project/nutting/logs/init","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"init-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-18 23:21:35,378 INFO 13778 [egg:core] dump config after load, 2ms
+2020-08-18 23:21:35,407 INFO 13778 [egg-watcher] Start watching: ["/Users/dezhizhang/Documents/project/nutting/app","/Users/dezhizhang/Documents/project/nutting/config","/Users/dezhizhang/Documents/project/nutting/mocks","/Users/dezhizhang/Documents/project/nutting/mocks_proxy","/Users/dezhizhang/Documents/project/nutting/app.js"]
+2020-08-18 23:21:35,407 INFO 13778 [egg-watcher] Start watching: "/Users/dezhizhang/Documents/project/nutting/app"
+2020-08-18 23:21:35,407 INFO 13778 [egg-watcher] Start watching: "/Users/dezhizhang/Documents/project/nutting/config"
+2020-08-18 23:21:35,407 INFO 13778 [egg-watcher] Start watching: "/Users/dezhizhang/Documents/project/nutting/mocks"
+2020-08-18 23:21:35,407 INFO 13778 [egg-watcher] Start watching: "/Users/dezhizhang/Documents/project/nutting/mocks_proxy"
+2020-08-18 23:21:35,407 INFO 13778 [egg-watcher] Start watching: "/Users/dezhizhang/Documents/project/nutting/app.js"
+2020-08-18 23:21:35,407 INFO 13778 [egg-watcher:agent] watcher start success
+2020-08-18 23:21:35,422 INFO 13778 [egg:core] dump config after ready, 8ms
+2020-08-18 23:23:06,950 INFO 13968 [egg:logger] init all loggers with options: {"dir":"/Users/dezhizhang/Documents/project/nutting/logs/init","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"init-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-18 23:23:06,957 INFO 13968 [egg:core] dump config after load, 4ms
+2020-08-18 23:23:06,987 INFO 13968 [egg-watcher] Start watching: ["/Users/dezhizhang/Documents/project/nutting/app","/Users/dezhizhang/Documents/project/nutting/config","/Users/dezhizhang/Documents/project/nutting/mocks","/Users/dezhizhang/Documents/project/nutting/mocks_proxy","/Users/dezhizhang/Documents/project/nutting/app.js"]
+2020-08-18 23:23:06,987 INFO 13968 [egg-watcher] Start watching: "/Users/dezhizhang/Documents/project/nutting/app"
+2020-08-18 23:23:06,987 INFO 13968 [egg-watcher] Start watching: "/Users/dezhizhang/Documents/project/nutting/config"
+2020-08-18 23:23:06,987 INFO 13968 [egg-watcher] Start watching: "/Users/dezhizhang/Documents/project/nutting/mocks"
+2020-08-18 23:23:06,987 INFO 13968 [egg-watcher] Start watching: "/Users/dezhizhang/Documents/project/nutting/mocks_proxy"
+2020-08-18 23:23:06,987 INFO 13968 [egg-watcher] Start watching: "/Users/dezhizhang/Documents/project/nutting/app.js"
+2020-08-18 23:23:06,988 INFO 13968 [egg-watcher:agent] watcher start success
+2020-08-18 23:23:06,996 INFO 13968 [egg:core] dump config after ready, 4ms
