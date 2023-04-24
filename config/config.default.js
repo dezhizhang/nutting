@@ -1,3 +1,12 @@
+/*
+ * :file description: 
+ * :name: /nutting/config/config.default.js
+ * :author: 张德志
+ * :copyright: (c) 2023, Tungee
+ * :date created: 2023-04-25 00:27:10
+ * :last editor: 张德志
+ * :date last edited: 2023-04-25 00:36:47
+ */
 /* eslint valid-jsdoc: "off" */
 
 'use strict';
@@ -35,7 +44,7 @@ module.exports = appInfo => {
   config.cluster = {
     listen:{
       path:"",
-      port:8020,
+      port:8083,
       hostname:"0.0.0.0"
     }
   }
@@ -47,12 +56,12 @@ module.exports = appInfo => {
   };
 
  //配置数据库
-  // config.mongoose = {
-  //   client:{
-  //     url:'mongodb://127.0.0.1:27017/link',
-  //     options:{}
-  //   }
-  // }
+  config.mongoose = {
+    client:{
+      url:'mongodb://127.0.0.1:27017/link',
+      options:{}
+    }
+  }
 
 
   // add your user config here
